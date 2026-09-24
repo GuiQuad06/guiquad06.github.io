@@ -1,0 +1,28 @@
+# Site settings
+title: My Technical Information Collection
+author: Guillaume Cuadrado
+email: "guillaume.cuadrado@gmail.com"
+description: >-
+  Personal collection of technical information. Various topics and resources are included,
+  around Embedded Software and Firmware engineering.
+baseurl: "" # user site (guiquad06.github.io) is served from the root, so no subpath
+url: "https://guiquad06.github.io"
+
+# Build settings
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+markdown: kramdown
+kramdown:
+  input: GFM              # GitHub-flavored: fenced code blocks, ~~strikethrough~~, line breaks
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - README.md
+  - inputs/
