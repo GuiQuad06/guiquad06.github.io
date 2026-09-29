@@ -147,8 +147,10 @@ info register r0
 layout regs
 ```
 
-## env activation helper scripts
-1. baremetal source script
+## Env activation helper scripts
+
+### 1. Baremetal source script
+
 ```bash
 #!/bin/bash
 
@@ -167,7 +169,9 @@ cd "$1"
 # Optional: Print a message to confirm the environment is set up
 echo "Environment set up for project: $1"
 ```
-2. arm source script
+
+### 2. ARM source script
+
 ```bash
 #!/bin/bash
 
@@ -189,7 +193,9 @@ export PATH ARCH CROSS_COMPILE
 
 echo "Environment set up for project: $1"
 ```
-3. aarch64 source script
+
+### 3. AArch64 source script
+
 ```bash
 #!/bin/bash
 
