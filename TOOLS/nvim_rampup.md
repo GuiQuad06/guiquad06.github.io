@@ -71,3 +71,5 @@ c) Other commands
 - NerdTree open automatically at vim startup
     - open file in new split => i
     - open file in new vsplit => s
+
+[Back to Tools](./)

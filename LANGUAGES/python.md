@@ -14,9 +14,6 @@ title: Python
 - [Misc](#misc)
 - [DUNOD puzzle book — key concepts](#dunod-puzzle-book--key-concepts)
 
-> Looking for spreadsheet automation? See the dedicated
-> [Python x Excel]({{ site.baseurl }}/PYTHON_X_EXCEL/) topic.
-
 ---
 
 ## Lists and tuples
@@ -115,7 +112,7 @@ np.genfromtxt('data.txt', delimiter=',')
 
 ## Misc
 
-Piping a Python result into another program's stdin:
+Pipe a Python result into the stdin of another program — here an ELF executable:
 
 ```bash
 python3 -c "print('aaaa\x00aaaa\x00')" | ./main

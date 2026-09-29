@@ -85,3 +85,5 @@ title: Doom Emacs Cheatsheet
 ## EDIFF
 
 - `SPC e d` to open the diff view between two existing buffers
+
+[Back to Tools](./)

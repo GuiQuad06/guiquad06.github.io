@@ -65,3 +65,5 @@ find . -name "*.c" -exec grep TOTO
 Other tools:
 - z (zoxide) - a way much better cd
 - bat (batcat) - a better cat
+
+[Back to Tools](./)
