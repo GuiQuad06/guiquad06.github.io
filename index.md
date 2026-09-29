@@ -20,10 +20,10 @@ Embedded Software & Firmware engineering.
 | [Python x Excel](PYTHON_X_EXCEL/) | Spreadsheet automation with pandas and openpyxl |
 | [Docker](DOCKER/) | Images, containers, Dockerfiles, Yocto with CROPS |
 | [Local AI](LOCAL_AI/) | Ollama, Open WebUI, harnesses |
+| [Git Reminder](GIT_REMINDER/) | Cheatsheet, workflows, merge options |
+| [Protecting Software](PROTECTING_SW/) | SBOM, licenses, analysis tools |
 
 ## Coming next
 
-- Git reminder — workflows and merge strategies
 - Embedded Systems — GPIO states, memory footprint, unit testing, RTOS
 - Embedded Linux — kernel drivers, Buildroot, Yocto / Poky
-- Protecting Software — components and analysis tools
