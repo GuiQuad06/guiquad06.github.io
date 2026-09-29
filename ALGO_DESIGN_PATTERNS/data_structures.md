@@ -6,8 +6,8 @@ title: Data Structures
 # Data Structures
 
 1. **Singly Linked List**
-   - Append (at the tail) — $O(n)$
-   - Add (at the head) — $O(1)$
+   - Append (at the tail) — `O(n)`
+   - Add (at the head) — `O(1)`
    - Remove
    - Insert
 2. **Doubly Linked List**

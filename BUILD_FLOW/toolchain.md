@@ -10,13 +10,13 @@ title: Toolchain
 - [Binutils](#binutils)
 - [gcov](#gcov)
 - [GDB](#gdb)
-- [ENV Script](#env)
+- [ENV Script](#env-activation-helper-scripts)
 
 ---
 
 ## Compilation process overview
 
-![Preprocessor, compiler, assembler and linker turning hello.c into hello.exe](img/compilation-process-overview.jpeg)
+![Preprocessor, compiler, assembler and linker turning hello.c into hello.exe](img/compilation-process-overview-cropped.jpg)
 
 `hello.c` → **preprocessor** (expands headers) → `hello.i` → **compiler** → `hello.s`
 (assembly) → **assembler** → `hello.obj` → **linker** (pulls in library files) →
