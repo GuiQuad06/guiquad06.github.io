@@ -15,15 +15,15 @@ Embedded Software & Firmware engineering.
 | [Software Standards](SW_STANDARDS/) | IEC 62304 |
 | [Algorithms & Design Patterns](ALGO_DESIGN_PATTERNS/) | Big-O, data structures, coding patterns |
 | [Languages](LANGUAGES/) | ARM Assembly, C, C++, Python |
+| [Build Flow](BUILD_FLOW/) | Makefile, CMake, Autotools, toolchain (GCC, Binutils, gcov, GDB) |
+| [Connectivity](CONNECTIVITY/) | BLE, MQTT |
+| [Python x Excel](PYTHON_X_EXCEL/) | Spreadsheet automation with pandas and openpyxl |
+| [Docker](DOCKER/) | Images, containers, Dockerfiles, Yocto with CROPS |
+| [Local AI](LOCAL_AI/) | Ollama, Open WebUI, harnesses |
 
 ## Coming next
 
-- Build Flow — build systems (make, CMake, Autotools), toolchains
 - Git reminder — workflows and merge strategies
 - Embedded Systems — GPIO states, memory footprint, unit testing, RTOS
-- Connectivity — BLE, MQTT
 - Embedded Linux — kernel drivers, Buildroot, Yocto / Poky
 - Protecting Software — components and analysis tools
-- Python x Excel
-- Docker
-- Local AI
