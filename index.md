@@ -23,7 +23,4 @@ Embedded Software & Firmware engineering.
 | [Git Reminder](GIT_REMINDER/) | Cheatsheet, workflows, merge options |
 | [Protecting Software](PROTECTING_SW/) | SBOM, licenses, analysis tools |
 | [Embedded Systems](EMBEDDED_SYSTEMS/) | GPIO states, memory footprint, unit testing, RTOS |
-
-## Coming next
-
-- Embedded Linux — kernel drivers, Buildroot, Yocto / Poky
+| [Embedded Linux](EMBEDDED_LINUX/) | Kernel drivers, Buildroot, Yocto Project / Poky |

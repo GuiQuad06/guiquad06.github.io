@@ -67,5 +67,7 @@ docker image prune   # clean up dangling images
 ## Yocto in Docker with CROPS
 
 `crops/poky` — Docker Hub repository providing ready-to-use Yocto/Poky build containers.
+See [Yocto x Docker : `crops/poky` image (Debian tags)](../EMBEDDED_LINUX/crops_poky_debian.html)
+for a full walkthrough.
 
 [Back to home]({{ site.baseurl }}/)
