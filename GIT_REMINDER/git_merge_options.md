@@ -13,6 +13,7 @@ For a small team (1 to 3 devs):
 
 ```bash
 git tag -a v1.0.0 -m "Release v1.0.0"
+git push origin --tags
 ```
 
 Avoid merge commits — they only add noise pollution at this cadence.
