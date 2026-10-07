@@ -10,6 +10,7 @@ title: Embedded Systems
 - [Memory Footprint](memory_footprint.html)
 - [Unit Testing (CTest / Unity)](unit_testing.html)
 - [OpenOCD](openocd.html)
+- [STM32 Cube](stm32cube.html)
 - RTOS
   - [FreeRTOS](rtos_freertos.html)
   - [Zephyr](rtos_zephyr.html)
