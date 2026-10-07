@@ -75,3 +75,5 @@ Example here of the [Basic Shell example](https://github.com/GuiQuad06/stm32-gen
 ### Some perso projects
 - [Raw Baremetal project](https://github.com/GuiQuad06/train-barrier)
 - [Fruit piano](https://github.com/GuiQuad06/fruit_piano)
+
+[Back to Embedded Systems](./)
