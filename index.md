@@ -11,7 +11,7 @@ Embedded Software & Firmware engineering.
 | Topic | Description |
 |---|---|
 | [Tools](TOOLS/) | Command line, NeoVim, Doom Emacs, Valgrind, useful utilities |
-| [Software Architecture & Modeling](SW_ARCHI_MODELING/) | UML & SysML with Modelio |
+| [Software Architecture & Modeling](SW_ARCHI_MODELING/) | UML vs SysML, UML & SysML with Modelio |
 | [Software Standards](SW_STANDARDS/) | IEC 62304 |
 | [Algorithms & Design Patterns](ALGO_DESIGN_PATTERNS/) | Big-O, data structures, coding patterns |
 | [Languages](LANGUAGES/) | ARM Assembly, C, C++, Python |
