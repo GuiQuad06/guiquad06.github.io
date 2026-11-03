@@ -11,7 +11,7 @@ Embedded Software & Firmware engineering.
 | Topic | Description |
 |---|---|
 | [Tools](TOOLS/) | Command line, NeoVim, Doom Emacs, Valgrind, useful utilities |
-| [Software Architecture](SW_ARCHI/) | ARM architecture, UML & SysML with Modelio |
+| [Software Architecture & Modeling](SW_ARCHI_MODELING/) | UML & SysML with Modelio |
 | [Software Standards](SW_STANDARDS/) | IEC 62304 |
 | [Algorithms & Design Patterns](ALGO_DESIGN_PATTERNS/) | Big-O, data structures, coding patterns |
 | [Languages](LANGUAGES/) | ARM Assembly, C, C++, Python |
@@ -22,5 +22,5 @@ Embedded Software & Firmware engineering.
 | [Local AI](LOCAL_AI/) | Ollama, Open WebUI, harnesses |
 | [Git Reminder](GIT_REMINDER/) | Cheatsheet, workflows, merge options |
 | [Protecting Software](PROTECTING_SW/) | SBOM, licenses, analysis tools |
-| [Embedded Systems](EMBEDDED_SYSTEMS/) | GPIO states, memory footprint, unit testing, RTOS |
+| [Embedded Systems](EMBEDDED_SYSTEMS/) | ARM architecture, GPIO states, memory footprint, unit testing, RTOS |
 | [Embedded Linux](EMBEDDED_LINUX/) | Kernel drivers, Buildroot, Yocto Project / Poky |

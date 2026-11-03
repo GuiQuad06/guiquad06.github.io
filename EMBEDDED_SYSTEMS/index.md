@@ -6,6 +6,7 @@ title: Embedded Systems
 # Embedded Systems
 
 - [General](general.html)
+- [ARM Architecture](arm_architecture.html)
 - [GPIO States (HW)](gpio_states.html)
 - [Memory Footprint](memory_footprint.html)
 - [Unit Testing (CTest / Unity)](unit_testing.html)

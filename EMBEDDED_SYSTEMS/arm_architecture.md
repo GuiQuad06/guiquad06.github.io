@@ -48,4 +48,4 @@ unit merges D + I traffic towards main memory on the on-chip AMBA bus.
 | Cortex-R | ARMv7-R |
 | Cortex-M | ARMv7-M |
 
-[Back to Software Architecture](./)
+[Back to Embedded Systems](./)

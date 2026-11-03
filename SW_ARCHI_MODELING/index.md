@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Software Architecture
+title: Software Architecture & Modeling
 ---
 
-# Software Architecture
+# Software Architecture & Modeling
 
-Modelling standards and processor architecture notes.
+Modelling standards notes.
 
-- [ARM Architecture](arm_architecture.html) — RISC philosophy, Thumb, Harvard/TCM, families
 - [UML with Modelio](uml_modelio.html) — diagram taxonomy, use case & class relationships
 - [SysML with Modelio](sysml_modelio.html) — diagram taxonomy for system level modelling
 
