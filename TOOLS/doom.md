@@ -46,6 +46,7 @@ title: Doom Emacs Cheatsheet
 ## SPC b
 
 - `B` (switch buffer)
+- `N` (new empty buffer)
 
 ## SPC o (open a component)
 
@@ -76,6 +77,11 @@ title: Doom Emacs Cheatsheet
 
 - `SPC m q`
 - `SPC o a m` (to search by Tag)
+
+## Got to definitions
+
+- `C-]` for going to definition
+- `C-t` for going back
 
 ## Checkboxes
 
