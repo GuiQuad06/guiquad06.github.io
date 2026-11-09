@@ -51,8 +51,10 @@ title: NeoVim Ramp-up
 | Copy from cursor to end of line | `y$` |
 | Enter visual mode | `v` (or select with the mouse) |
 | Go to definition/declaration | `gD` (or `Ctrl-]`, works better) |
-| Go to tag (best way) | `Ctrl-]` |
+| Go to tag (best way) (*) | `Ctrl-]` |
 | Go back from tag | `Ctrl-t` |
+
+(*) To be able to use tags, user shall first call ```ctags -R .``` to index the project files.
 
 ##### b) Insert mode / Visual mode
 
