@@ -38,6 +38,25 @@ title: Kernel Drivers
   - `ip addr`
   - `sudo ethtool enpxxx` / `sudo ethtool -i enpxxx` — for the corresponding driver.
 
+### TL;DR building the kernel
+
+- Before starting the configuration, set-up the environment by sourcing a script (to set PATH, ARCH & CROSS_COMPILE variables).
+```bash
+source linux_env_activate.sh arm64
+```
+-  Start from scratch (remove also config files)
+```bash
+make mrproper
+```
+- Set up a reference config (the default one)
+```bash
+make defconfig
+```
+- Add options on top of the default config (output in .config)
+```bash
+make nconfig
+```
+
 ## Kernel Drivers
 
 - Device files: `/dev`
@@ -71,6 +90,12 @@ title: Kernel Drivers
 - More scalable, more flexible, more languages (Python).
 - Use cases: GPIO, sensors (⚠️ not for low-latency things — switch to kernel space
   for a faster response).
+
+### Identify & use User space / Kernel space applications
+
+- foo.o -> foo -> ./foo : user space app (to be populated in /usr/bin or send via scp).
+- foo.ko -> insmod / rmmod : Loadable Kernel Module also known as out-of-tree module.
+- In-tree Kernel driver : directly integrated / compiled in the monolithic kernel.
 
 ---
 
