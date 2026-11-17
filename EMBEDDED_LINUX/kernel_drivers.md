@@ -56,6 +56,7 @@ make defconfig
 ```bash
 make nconfig
 ```
+- Finally compile the kernel with make (image resides in arch/{x86|arm|arm64}/boot)
 
 ## Kernel Drivers
 
@@ -84,6 +85,20 @@ make nconfig
   ```bash
   sudo bpftrace -e 'kprobe:toto_module{printf("function called by %s (PID=%d")\n", comm, pid;}'
   ```
+
+## Character device drivers
+
+- These are device drivers prefixed with `c` in /dev file system (resides in RAM) (`b` is block device drivers)
+- To create the file:
+```bash
+mknod mychardriver c major minor
+```
+- Full process:
+  - Write the character driver (.c source file w/ file operations)
+  - compile the *.o module (obj-m) with linux headers
+  - Insert the driver with insmod
+  - Make the device file (make the node see above) + chmod 666
+
 
 ## User Space Drivers
 
