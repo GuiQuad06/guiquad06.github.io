@@ -8,6 +8,7 @@ title: Embedded Systems
 - [General](general.html)
 - [ARM Architecture](arm_architecture.html)
 - [GPIO States (HW)](gpio_states.html)
+- [Interfaces (UART / I2C / SPI / RS-232 / RS-422 / RS-485)](interface.html)
 - [Memory Footprint](memory_footprint.html)
 - [Unit Testing (CTest / Unity)](unit_testing.html)
 - [OpenOCD](openocd.html)
