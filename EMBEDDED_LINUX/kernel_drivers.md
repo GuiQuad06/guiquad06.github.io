@@ -86,6 +86,34 @@ make nconfig
   sudo bpftrace -e 'kprobe:toto_module{printf("function called by %s (PID=%d")\n", comm, pid;}'
   ```
 
+### Makefile rules
+
+- Define modules object files to be compiled :
+```
+obj-m := hello.o
+```
+- Important part is to specify the path where to find the linux headers, or kernel build. Let's take 2 examples :
+1. User wants to develop driver module for native x86_64 kernel (apt install the corresponding `linux-headers`):
+```
+KDIR ?= /lib/modules/`uname -r`/build
+```
+2. User wants to develop driver module for arm64 build (kernel built on buildroot for example):
+```
+KDIR ?= ${BUILDROOT_DIR}/output/build/linux-6.18.7
+ARCH=arm64
+CROSS_COMPILE=${BUILDROOT_DIR}/output/host/bin/arm-linux-
+```
+- Create the targets for make :
+```
+all:
+    make -C ${KDIR} M=${PWD} ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} modules
+clean:
+    rm -rf *~ Module.markers Module.symvers
+    make -C ${KDIR} M=${PWD} ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} clean
+install:
+    make -C ${KDIR} M=${PWD} ARCH=${ARCH} CROSS_COMPILE=${CROSS_COMPILE} modules_install
+```
+
 ## Character device drivers
 
 - These are device drivers prefixed with `c` in /dev file system (resides in RAM) (`b` is block device drivers)
